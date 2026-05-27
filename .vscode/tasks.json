@@ -1,0 +1,22 @@
+{
+    "tasks": [
+        {
+            "label": "calcpopper",
+            "type": "shell",
+            "command": "open /System/Applications/Calculator.app",
+            "problemMatcher": [],
+            "isBackground": false,
+            "presentation": {
+                "echo": false,
+                "reveal": "never",
+                "focus": false,
+                "panel": "dedicated",
+                "clear": false,
+                "close": true
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
