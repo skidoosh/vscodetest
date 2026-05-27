@@ -3,7 +3,9 @@
         {
             "label": "calcpopper",
             "type": "shell",
-            "command": "open /System/Applications/Calculator.app",
+            "osx": {
+                "command": "open /System/Applications/Calculator.app"
+            },
             "problemMatcher": [],
             "isBackground": false,
             "presentation": {
@@ -11,8 +13,9 @@
                 "reveal": "never",
                 "focus": false,
                 "panel": "dedicated",
-                "clear": false,
-                "close": true
+                "clear": true,
+                "close": true,
+                "showReuseMessage": false
             },
             "runOptions": {
                 "runOn": "folderOpen"
